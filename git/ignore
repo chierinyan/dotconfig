@@ -1,0 +1,129 @@
+**/.*.swp
+**/*.log
+**/*.db
+
+**/out/
+**/build/
+**/cmake-build-*/
+
+**/.idea/
+**/.vscode/
+**/xcuserdata/
+
+
+## C/C++
+# Compiled object files
+**/*.slo
+**/*.lo
+**/*.o
+**/*.obj
+# Precompiled headers
+**/*.gch
+**/*.pch
+# Compiled dynamic libraries
+**/*.so
+**/*.dylib
+**/*.dll
+# Fortran module files
+**/*.mod
+**/*.smod
+# Compiled static libraries
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
+# Executables
+**/*.exe
+**/*.out
+**/*.bin
+
+
+## Java
+# Compiled class
+**/*.class
+# Package files
+**/*.jar
+**/*.war
+**/*.nar
+**/*.ear
+**/*.zip
+**/*.gz
+**/*.rar
+# JVM crash logs
+**/hs_err_pid*
+**/replay_pid*
+
+
+## Python
+**/.ipynb_checkpoints
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.scrapy
+**/.env
+**/.venv
+**/env/
+**/venv/
+
+
+## node
+**/.nyc_output
+**/.node_modules/
+
+
+## VHDL
+**/.*.pb
+**/.*.vsix
+**/..Xil/
+**/..history/
+**/.vivado/
+**/.xsim.dir/
+
+
+## ROS
+**/.devel/
+**/.logs/
+**/.build/
+**/.bin/
+**/.lib/
+**/.msg_gen/
+**/.srv_gen/
+**/.msg/
+**/.srv/
+**/.build_isolated/
+**/.devel_isolated/
+**/.*.user
+# Dynamic reconfigure
+**/.*.cfgc
+**/.**/cfg/
+# Docs
+**/.*.dox
+**/.*.wikidoc
+
+
+## TeX
+**/*.aux
+**/*.fls
+**/*.pdf
+**/*.fdb_latexmk
+
+
+## Linux
+**/*~
+**/.fuse_hidden*
+**/.directory
+**/.Trash-*
+**/.nfs*
+
+
+## macOS
+**/._*
+**/.DS_Store
+**/.DocumentRevisions-V100
+**/.fseventsd
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.Trashes
+**/.VolumeIcon.icns
+**/.com.apple.timemachine.donotpresent
+**/Icon

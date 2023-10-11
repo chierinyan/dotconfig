@@ -1,0 +1,71 @@
+\def\titlename{<++>}
+\def\authorname{ZHU Ziyao - 3035772145}
+
+\documentclass{article}
+
+\usepackage{mdframed}
+\usepackage{enumerate,enumitem,listings}
+\usepackage{palatino,amsmath,amssymb,amsthm,amsfonts,mathrsfs}
+
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\usepackage[a4paper,total={7in, 9in}]{geometry}
+\setlength\parindent{0pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\titlename}
+\rhead{\authorname}
+
+% \usepackage[inkscapepath=build/inkscape]{svg}
+% \usepackage{graphicx}
+% \graphicspath{ {./img} }
+
+% \usepackage[outputdir=build]{minted}
+% \usemintedstyle{borland}
+
+
+% https://github.com/dustinvtran/latex-templates
+\newtheoremstyle{box}
+                {3pt}       % Space above
+                {3pt}       % Space below
+                {}          % Body font
+                {}          % Indent amount
+                {\bfseries} % Theorem head font
+                {\\*[3pt]}  % Punctuation after theorem head
+                {0.5em}     % Space after theorem head
+                {}          % Theorem head spec (can be left empty, meaning `normal')
+\theoremstyle{box}
+
+\newtheorem{theorem}{Theorem}[]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newmdtheoremenv[skipabove=\topsep,skipbelow=\topsep]{question}{Question}
+\newmdtheoremenv[backgroundcolor=black!3,skipabove=\topsep,skipbelow=\topsep]{answer}{Answer}
+
+
+\title{\titlename}
+\author{\authorname}
+\date{}
+
+
+
+\begin{document}
+\maketitle
+
+\begin{question}[$25\%$]
+\end{question}
+\vspace{1em}
+
+\begin{answer}
+\begin{enumerate}
+    \item[]
+    \item
+\end{enumerate}
+\end{answer}
+\vspace{3em}
+
+\end{document}

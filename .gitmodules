@@ -1,0 +1,9 @@
+[submodule "zsh/zsh-z"]
+	path = zsh/modules/zsh-z
+	url = https://github.com/agkozak/zsh-z
+[submodule "zsh/prezto"]
+	path = zsh/modules/prezto
+	url = https://github.com/chierinyan/prezto
+[submodule "nvim/vim-plug"]
+	path = nvim/vim-plug
+	url = https://github.com/junegunn/vim-plug.git

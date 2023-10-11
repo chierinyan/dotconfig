@@ -1,0 +1,13 @@
+[Unit]
+Description=Stable Diffusion Web UI Service
+After=network.target
+
+[Service]
+Type=simple
+; Restart=on-failure
+; RestartSec=30
+WorkingDirectory=%h/stable-diffusion-webui/
+ExecStart=%h/miniconda3/bin/conda run -n torch %h/stable-diffusion-webui/webui.sh
+
+[Install]
+WantedBy=default.target

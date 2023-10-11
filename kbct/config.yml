@@ -1,0 +1,12 @@
+- keyboards: ["AT Translated Set 2 keyboard", "Logitech USB Receiver"]
+  keymap:
+    leftalt: leftctrl
+    capslock: leftalt
+    leftctrl: capslock
+    rightalt: rightctrl
+    rightctrl: rightalt
+
+  layers:
+    - modifiers: ['capslock']
+      keymap:
+        enter: kpenter

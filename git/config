@@ -1,0 +1,16 @@
+[user]
+	name = chierinyan
+    email = ziyaozhu@connect.hku.hk
+[core]
+	editor = nvim
+	excludesfile = ~/.config/git/ignore
+[init]
+	defaultBranch = master
+[pull]
+	rebase = true
+[log]
+	abbrevCommit = true
+[format]
+	pretty = oneline
+[alias]
+	logs = log
